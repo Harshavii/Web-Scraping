@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+# here, ycombinator webpage is used to view recent news with most upvotes
 response = requests.get("https://news.ycombinator.com/")
 yc_webpage = response.text
 
@@ -37,6 +38,3 @@ print(titles[index])
 print(f"With {upvotes[index]} upvotes!")
 print("And here's the link:")
 print(links[index])
-
-
-
