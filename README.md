@@ -1,4 +1,4 @@
-day45_Web-Scraping
+# Web-Scraping
 
 In this repository, web scraping is done using Beautiful Soup module.
 Web pages are accessed using requests.
